@@ -8,10 +8,8 @@ export function useAppState() {
 }
 
 const appStateReducer = (state, action) => {
-  console.log(action.type);
   switch (action.type) {
     case "READ_BOOK": {
-      console.log(state.completed);
       return {
         ...state,
         toRead: state.toRead.filter((item) => {
