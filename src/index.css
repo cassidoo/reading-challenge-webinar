@@ -15,6 +15,7 @@ ul {
 li {
   margin: 15px;
   padding: 20px;
+  min-width: 300px;
   max-width: 500px;
   color: #666666;
   border-radius: 5px;
