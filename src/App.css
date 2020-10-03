@@ -10,7 +10,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 1em;
   color: #d9ecf2;
 }
 
@@ -18,8 +17,9 @@ span{
   font-weight: bold; 
 }
 
-p{
+ p{
   margin: 10px auto;
+  font-size: medium;
   text-align: center;
   color: #ff414d;
 }
