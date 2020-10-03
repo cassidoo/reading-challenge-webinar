@@ -1,4 +1,5 @@
 body {
+  background-color: #eeecda;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
@@ -7,26 +8,3 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-ul {
-  padding: 0;
-  list-style-type: none;
-}
-
-li {
-  margin: 15px;
-  padding: 20px;
-  max-width: 500px;
-  color: #666666;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 5px 10px 0px;
-}
-
-li:hover {
-  box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 30px 0px;
-  cursor: pointer;
-}
-
-.lists {
-  display: flex;
-  justify-content: space-around;
-}

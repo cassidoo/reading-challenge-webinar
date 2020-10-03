@@ -1,14 +1,58 @@
 .App {
   text-align: center;
+  color: #ff414d;
 }
 
 .App-header {
-  background-color: #282c34;
-  height: 100px;
+  background-color: #ff414d;
+  height: 80px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-size: 1em;
+  color: #d9ecf2;
+}
+
+span{
+  font-weight: bold; 
+}
+
+p{
+  margin: 10px auto;
+  text-align: center;
+  color: #ff414d;
+}
+
+h3 {
+  background-color: #f8bd7f;
+  border-radius: 0 0 30px 30px;
+  margin: 5px;
+  padding: 15px;
+}
+
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+li {
+  margin: 15px;
+  padding: 20px;
+  max-width: 500px;
+  border-radius: 5px;
+  background-color: #d9ecf2;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 5px 10px 0px;
+}
+
+li:hover {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 30px 0px;
+  cursor: pointer;
+  background-color: #ff414d;
+  color: #d9ecf2;
+}
+
+.lists {
+  display: flex;
+  justify-content: space-around;
 }
